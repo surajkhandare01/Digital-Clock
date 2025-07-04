@@ -1,0 +1,23 @@
+ body {
+      background-color: #111;
+      color: #00ffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+    }
+    #clock {
+      font-size: 5em;
+      margin-bottom: 20px;
+    }
+    #quote {
+      color: #ffcc00;
+      font-size: 1.5em;
+      width: 60%;
+      max-width: 700px;
+      line-height: 1.4;
+    }
