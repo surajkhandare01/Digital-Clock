@@ -41,7 +41,7 @@
       document.getElementById('clock').textContent = timeString;
 
       // Update quote once per hour
-      const quote = quotes[seconds] || "Keep going. You're doing great!";
+      const quote = quotes[hours] || "Keep going. You're doing great!";
       document.getElementById('quote').textContent = quote;
     }
 
